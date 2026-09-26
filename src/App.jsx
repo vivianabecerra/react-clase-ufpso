@@ -1,11 +1,23 @@
-function App() { 
-  return (
-    <div>
-      <h1>Tienda de Tecnología</h1>
-      <p>Bienvenidos a nuestra tienda</p>
-      <p>Tenemos computadores, celulares y accesorios.</p>
-    </div>
-  )
+   
+function Header() {
+  return <h1>Tienda de Tecnología</h1>
 }
 
-export default App
+function Producto() {
+  return <p>Computador portátil - $2.000.000</p>
+}
+
+function Footer() {
+  return <p>Contacto: tienda@gmail.com</p>
+}
+LUEGO SE PUEDE UNIR EN EL COMPONENTE PRINCIPAL
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Producto />
+      <Footer />
+    </>
+  )
+}
