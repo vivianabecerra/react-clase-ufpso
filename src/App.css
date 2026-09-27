@@ -1,12 +1,18 @@
-body {
-  font-family: Arial, sans-serif;
+div {
   text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
 }
-
 h1 {
   font-size: 40px;
 }
-
+h2 {
+  font-size: 28px;
+}
 p {
-  font-size: 20px;
+  font-size: 18px;
+}
+img {
+  margin: 20px;
+  border-radius: 10px;
 }
